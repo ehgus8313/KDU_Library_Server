@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "ehgus83133", "rnjs2264@@", "ehgus83133_godohosting_com");
+    $con = mysqli_connect("localhost", "ID", "Password", "Hosting Server");
     $result = mysqli_query($con, "SELECT * FROM NOTICE ORDER BY noticeDate DESC;");
     $response = array();
 
