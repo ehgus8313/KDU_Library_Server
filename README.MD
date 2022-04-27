@@ -29,6 +29,5 @@ userID를 입력받아 현재 USER가 현재 데이터베이스에 이미 존재
 
 ## 파일설명 : ***NoticeList.php***
 
-로그인시 **아이디와 비밀번호를 확인**해주는 기능수행.
 NOTICE 테이블 안에서 noticeDate를 기준으로 내림차순으로 정렬(최신날짜가 먼저 나오도록)
 배열을 생성한후 noticeContent, noticeName, noticeDate에 데이터를 받아와서 response형태로 사용자에게 보여줄수있도록 함.
